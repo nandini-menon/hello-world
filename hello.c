@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main(){
-	printf("\nHello World\n");
+	int i;
+	for(i=1;i<100;++i)
+		printf("Hello\n");
 	return 0;
 }
